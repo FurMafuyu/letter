@@ -2,50 +2,50 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Ma Bibliothèque de PDF</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matthieu Pierret | Accueil</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body { background-color: #f8f9fa; padding-top: 50px; }
-        .card { transition: transform 0.2s; }
-        .card:hover { transform: scale(1.05); }
-    </style>
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container text-center">
-        <h1 class="mb-5">Bienvenue sur mon site</h1>
-        <div class="row justify-content-center">
-            
-            <div class="col-md-4 mb-4">
-                <div class="card shadow-sm">
-                    <div class="card-body">
-                        <h5 class="card-title">Synthèse Goéland L2</h5>
-                        <p class="card-text">Synthèse bibliographique du prouveur automatique Goéland.</p>
-                        <a href="pdf/synth_goeland.pdf" class="btn btn-primary" target="_blank">PDF</a>
-                    </div>
-                </div>
-            </div>
 
-            <div class="col-md-4 mb-4">
-                <div class="card shadow-sm">
-                    <div class="card-body">
-                        <h5 class="card-title">Historique de la logique M1 IASD</h5>
-                        <p class="card-text">Travail épistémologique relatant sur un historique rapide de la logique.</p>
-                        <a href="pdf/epistemo_logic.pdf" class="btn btn-primary" target="_blank">PDF</a>
-                    </div>
-                </div>
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Matthieu Pierret</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto gap-2">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cv/index.html">CV</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pdfs/index.html">PDFs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact/index.html">Contact</a></li>
+                </ul>
+                <div class="d-none d-lg-flex" style="width: 130px;"></div>
             </div>
-
-             <div class="col-md-4 mb-4">
-                <div class="card shadow-sm">
-                    <div class="card-body">
-                        <h5 class="card-title">Micro-managers avec l'IA</h5>
-                        <p class="card-text">Mémoire de M2 MTS à l'Institut de l'Administration des Entreprises (IAE) Montpellier.</p>
-                        <a href="pdf/Rapport_M2_IAE-3.pdf" class="btn btn-primary" target="_blank">PDF</a>
-                    </div>
-                </div>
-            </div>
-
         </div>
-    </div>
+    </nav>
+
+    <header class="hero-section">
+        <div class="container">
+            <h1>Bienvenue sur mon site</h1>
+            <p>Étudiant en IASD / MTS & Passionné d'Informatique</p>
+        </div>
+    </header>
+
+    <main class="container mb-5">
+        <div class="row justify-content-center text-center">
+            <div class="col-md-8">
+                <h2 class="fw-bold mb-3">À propos de moi</h2>
+                <hr class="mb-4 mx-auto" style="color: #e2e8f0; width: 60px; height: 3px; background-color: #4f46e5; opacity: 1;">
+                <p class="lead text-secondary mb-3">Bonjour</p>
+                <p class="text-secondary mb-3">aze</p>
+                <p class="text-secondary">aze</p>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
